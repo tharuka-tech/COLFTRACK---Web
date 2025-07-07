@@ -1,24 +1,34 @@
-# COLFTRACK---Web
-ColfTrack is a full-stack loan tracking and staff management web application built for loan service providers. It features an admin panel for managing users, loans, and income analytics, and a public-facing website for customers to view their balances, loan officer details, and available plans by area.
+# COLFTRACK Web App
 
-🔐 Admin Panel
-Add & manage loan officers and riders
+**COLFTRACK** is a full-featured web application designed for loan companies to manage customers, staff, and loan plans. It includes a powerful admin dashboard and a public website for customers to check their balances, contact loan officers, and explore available plans.
 
-Assign staff to areas
+## 🔐 Admin Panel Features
+- Manage Loan Officers and Riders
+- Assign Areas to Riders
+- Add / Edit Loan Plans and Penalty Settings
+- Blacklist Customers
+- Approve Loans
+- Visualize Monthly Income in Charts
+- Grant / Revoke Permissions
 
-Create and edit loan plans and penalty settings
+## 🌍 Customer Website Features
+- Search Loan Balance by Area
+- View Assigned Rider / Loan Officer Details
+- Contact Staff
+- Browse Loan Plans Available in Their Area
 
-Track monthly income
+## 💻 Tech Stack
+- **Frontend**: React.js
+- **Backend / Database**: Firebase (Firestore & Auth)
+- **UI**: Tailwind CSS (or your CSS framework)
+- **Auth**: Firebase Authentication
 
-View and manage blacklisted and disabled accounts
+## 📸 Screenshots
+_Add your dashboard and public site screenshots here!_
 
-🌍 Customer Website
-Check current loan balance using area/rider filter
-
-View loan officer/rider contact details
-
-Browse available loan plans
-
-Area-wise customer support info
-
-
+## 🚀 Getting Started
+```bash
+git clone https://github.com/tharuka-tech/COLFTRACK---Web.git
+cd COLFTRACK---Web
+npm install
+npm start
