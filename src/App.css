@@ -1,0 +1,20 @@
+/* Custom dark scrollbar for sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #0f172a; /* dark background */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #4ade80; /* green thumb */
+  border-radius: 10px;
+  border: 2px solid #0f172a;
+}
+
+/* Firefox support */
+.sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #4ade80 #0f172a;
+}
