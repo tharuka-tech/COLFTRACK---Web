@@ -23,8 +23,6 @@
 - **UI**: Tailwind CSS (or your CSS framework)
 - **Auth**: Firebase Authentication
 
-## 📸 Screenshots
-_Add your dashboard and public site screenshots here!_
 
 ## 🚀 Getting Started
 ```bash
